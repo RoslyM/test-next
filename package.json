@@ -1,0 +1,59 @@
+{
+  "name": "todo-next",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "prisma": {
+    "seed": "tsx prisma/seed/seed.ts"
+  },
+  "dependencies": {
+    "@hookform/resolvers": "^3.10.0",
+    "@prisma/client": "^6.3.0",
+    "@radix-ui/react-checkbox": "^1.1.3",
+    "@radix-ui/react-dialog": "^1.1.5",
+    "@radix-ui/react-label": "^2.1.1",
+    "@radix-ui/react-radio-group": "^1.2.2",
+    "@radix-ui/react-slot": "^1.1.1",
+    "@reduxjs/toolkit": "^2.5.1",
+    "bcrypt": "^5.1.1",
+    "bcryptjs": "^2.4.3",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "jose": "^5.9.6",
+    "lucide-react": "^0.474.0",
+    "next": "15.1.6",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-hook-form": "^7.54.2",
+    "react-redux": "^9.2.0",
+    "tailwind-merge": "^2.6.0",
+    "tailwindcss-animate": "^1.0.7",
+    "uuid": "^11.0.5",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@types/bcrypt": "^5.0.2",
+    "@types/bcryptjs": "^2.4.6",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "15.1.6",
+    "postcss": "^8",
+    "prisma": "^6.3.0",
+    "tailwindcss": "^3.4.1",
+    "tsx": "^4.19.2",
+    "typescript": "^5"
+  },
+  "description": "Voici une version mise à jour et enrichie du README, incluant des instructions claires sur les migrations pour vos collaborateurs :",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
