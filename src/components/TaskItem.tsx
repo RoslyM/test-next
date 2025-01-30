@@ -28,7 +28,7 @@ const TaskItem: React.FC<TaskItemProps> = ({ task, onEditTaskClick,onDeleteTaskC
      <Trash2 className="size-[1.2rem] text-[#A4A7AE] cursor-pointer" onClick={() => onDeleteTaskClick(task)} />
      </div>
     </div>
-    <p className="text-[#535862] text-sm pt-2 ps-[1.58rem]">{task.description}</p>
+    <p className="text-[#535862] text-sm pt-2 ps-[1.58rem] line-clamp-2">{task.description}</p>
  </Card>
   )
 }
